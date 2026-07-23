@@ -1,21 +1,22 @@
-# 📊 Superstore Sales Analysis Dashboard
+# 📊 Superstore Sales Analysis & Business Intelligence Dashboard
 
-An end-to-end **Data Analytics** project built using Python to analyze Superstore sales data and transform raw data into meaningful business insights through an interactive dashboard.
+An end-to-end **Data Analytics** project built with **Python** to analyze retail sales data, extract business insights, and develop an interactive Business Intelligence Dashboard using **Streamlit** and **Plotly**.
 
 ---
 
-# 📌 Project Overview
+# 🚀 Project Overview
 
-The goal of this project is to analyze retail sales performance, identify business opportunities, and support decision-making using data visualization and exploratory data analysis.
+This project transforms raw Superstore sales data into meaningful business insights through:
 
-The project includes:
+- ✅ Data Cleaning
+- ✅ Exploratory Data Analysis (EDA)
+- ✅ Feature Engineering
+- ✅ Business Analysis
+- ✅ Interactive Dashboard
+- ✅ Automated Business Insights
+- ✅ Business Recommendations
 
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
-- Business Insights
-- Business Recommendations
-- Interactive Dashboard
+The objective is to help decision-makers understand sales performance, profitability, customer behavior, and operational efficiency.
 
 ---
 
@@ -25,7 +26,6 @@ The project includes:
 - Pandas
 - NumPy
 - Matplotlib
-- Seaborn
 - Plotly
 - Streamlit
 
@@ -33,7 +33,7 @@ The project includes:
 
 # 📂 Project Structure
 
-```
+```text
 Superstore-Sales-Analysis-Dashboard
 │
 ├── data
@@ -46,6 +46,8 @@ Superstore-Sales-Analysis-Dashboard
 ├── dashboard
 │   └── dashboard.py
 │
+├── images
+│
 ├── README.md
 ├── requirements.txt
 └── LICENSE
@@ -53,61 +55,112 @@ Superstore-Sales-Analysis-Dashboard
 
 ---
 
+# 📷 Dashboard Preview
+
+## 🌳 Sales Treemap
+
+![Sales Treemap](images/Sales%20Treemap.png)
+
+---
+
+## 📈 Monthly Trends
+
+![Monthly Trends](images/Monthly%20Trends.png)
+
+---
+
+## 🗺️ State Performance, Products & Sub-Categories
+
+![State Performance](images/State%20Performance%20,%20Products%20%26%20Sub-Categories.png)
+
+---
+
+## 💰 States, Margins & Discount Impact
+
+![Profit Analysis](images/States%20,%20Margins%20%26%20Discount%20Impact.png)
+
+---
+
+## 🔥 Correlation Heatmap
+
+![Correlation Heatmap](images/Correlation%20Heatmap.png)
+
+---
+
+## 💡 Automated Insights & Business Recommendations
+
+![Business Insights](images/Automated%20Insights%20-Business%20Recommendations.png)
+
+---
+
 # 📊 Dashboard Features
 
 - Executive KPI Cards
-- Sales Analysis
-- Profit Analysis
+- Interactive Filters
+- Sales Trend Analysis
+- Profit Trend Analysis
+- Category Performance
+- Regional Performance
 - Customer Analysis
 - Shipping Analysis
 - Discount Analysis
-- Category Performance
-- Regional Performance
-- Monthly Trends
 - Correlation Heatmap
-- Interactive Filters
-- Automated Business Insights
+- Business Insights
 - Business Recommendations
+- Dataset Preview
+- Download Filtered Dataset
 
 ---
 
 # 📈 Key Business Insights
 
-- Technology generated the highest total sales.
-- California achieved the highest profit.
-- Texas recorded the largest loss.
-- West is the most profitable region.
-- Consumer is the most profitable customer segment.
-- Copiers generated the highest profit.
-- Tables produced a net loss.
-- Higher discounts are associated with lower profitability.
-- Standard Class is the most frequently used shipping method.
+- 📦 Technology generated the highest total sales.
+- 🏆 California achieved the highest overall profit.
+- 📉 Texas recorded the largest financial loss.
+- 🌍 The West region is the most profitable.
+- 👑 Consumer is the most profitable customer segment.
+- 🧩 Copiers generated the highest product profit.
+- 📉 Tables operate at a net loss.
+- 💳 Higher discounts generally reduce profitability.
+- 🚚 Standard Class is the most frequently used shipping method but has the longest average delivery time.
 
 ---
 
 # 📌 Business Recommendations
 
-- Reduce discounts above 20% to improve profitability.
-- Investigate the causes of poor performance in Texas and the Central region.
-- Increase investment in Technology and Copiers.
-- Improve Standard Class shipping performance.
-- Focus on customer retention for the Consumer segment.
-- Review pricing strategy for Tables.
+- Reduce discounts greater than **20%** to improve profit margins.
+- Investigate the causes of poor profitability in **Texas** and the **Central Region**.
+- Increase inventory and marketing investment for **Technology** and **Copiers**.
+- Improve **Standard Class** shipping efficiency.
+- Focus customer retention campaigns on the **Consumer** segment.
+- Review pricing strategy for **Tables** products.
 
 ---
 
-# 📷 Dashboard Preview
+# 🎯 Project Objectives
 
-> Dashboard screenshots will be added here.
+- Analyze sales performance.
+- Identify profitable and unprofitable products.
+- Discover customer purchasing behavior.
+- Measure shipping performance.
+- Support data-driven business decisions.
 
 ---
 
-# 🚀 Installation
+# 📁 Dataset
+
+This project uses the **Sample Superstore Dataset**.
+
+The cleaned dataset is included in this repository.
+
+---
+
+# ⚙️ Installation
 
 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/Superstore-Sales-Analysis-Dashboard.git
+git clone https://github.com/A7medHamdi/Superstore-Sales-Analysis-Dashboard.git
 ```
 
 Install dependencies
@@ -119,51 +172,35 @@ pip install -r requirements.txt
 Run the dashboard
 
 ```bash
-streamlit run dashboard/dashboard.py
+streamlit run dashboard.py
 ```
-
----
-
-# 📁 Dataset
-
-Dataset used:
-
-**Sample Superstore Dataset**
-
-The cleaned dataset is included in the repository.
-
----
-
-# 🎯 Project Objectives
-
-- Analyze sales performance.
-- Identify profitable and unprofitable products.
-- Compare regional performance.
-- Understand customer behavior.
-- Measure shipping efficiency.
-- Support business decision-making.
 
 ---
 
 # 🔮 Future Improvements
 
-- Sales Forecasting using Machine Learning.
-- Customer Segmentation.
-- Profit Prediction.
-- Time-Series Forecasting.
-- Power BI Version.
-- Deployment on Streamlit Cloud.
+- Sales Forecasting using Machine Learning
+- Customer Segmentation
+- Profit Prediction
+- Time-Series Forecasting
+- Streamlit Cloud Deployment
 
 ---
 
 # 👨‍💻 Author
 
-Ahmed Hamdy
+## Ahmed Hamdy
 
-Faculty of Computers and Information
+Faculty of Computers and Information  
+Zagazig University
 
-Data Analytics & AI Enthusiast
+**Interested in:**
+
+- Data Analytics
+- Artificial Intelligence
+- Machine Learning
+- Business Intelligence
 
 ---
 
-⭐ If you found this project useful, consider giving it a Star.
+⭐ If you found this project useful, consider giving it a ⭐ on GitHub.
