@@ -59,37 +59,43 @@ Superstore-Sales-Analysis-Dashboard
 
 ## 🌳 Sales Treemap
 
-![Sales Treemap](images/Sales%20Treemap.png)
+![Sales Treemap](Dashboard%20screenshots/Sales%20Treemap.png)
 
 ---
 
 ## 📈 Monthly Trends
 
-![Monthly Trends](images/Monthly%20Trends.png)
+![Monthly Trends](Dashboard%20screenshots/Monthly%20Trends.png)
 
 ---
 
-## 🗺️ State Performance, Products & Sub-Categories
+## 🗺️ State Performance & Products
 
-![State Performance](images/State%20Performance%20,%20Products%20%26%20Sub-Categories.png)
+![State Performance](Dashboard%20screenshots/State%20Performance%20%2C%20Products%20%26%20Sub-Categories.png)
 
 ---
 
 ## 💰 States, Margins & Discount Impact
 
-![Profit Analysis](images/States%20,%20Margins%20%26%20Discount%20Impact.png)
+![Profit Analysis](Dashboard%20screenshots/States%20%2C%20Margins%20%26%20Discount%20Impact.png)
 
 ---
 
 ## 🔥 Correlation Heatmap
 
-![Correlation Heatmap](images/Correlation%20Heatmap.png)
+![Correlation Heatmap](Dashboard%20screenshots/Correlation%20Heatmap.png)
 
 ---
 
-## 💡 Automated Insights & Business Recommendations
+## 💡 Automated Insights
 
-![Business Insights](images/Automated%20Insights%20-Business%20Recommendations.png)
+![Automated Insights](Dashboard%20screenshots/Automated%20Insights.png)
+
+---
+
+## 📌 Business Recommendations
+
+![Business Recommendations](Dashboard%20screenshots/Business%20Recommendations.png)
 
 ---
 
